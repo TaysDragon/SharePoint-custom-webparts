@@ -6,6 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -102,3 +103,29 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+#the below is from isaac's gitignore file
+
+# OSX
+.DS_Store
+
+# Build generated files
+dist
+lib
+solution
+temp
+*.sppkg
+
+
+# Visual Studio files
+.ntvs_analysis.dat
+.vs
+bin
+obj
+
+# Resx Generated Code
+*.resx.ts
+
+# Styles Generated Code
+*.scss.ts
